@@ -14,4 +14,5 @@ async function buscaEndereco(CEP) {
 
 var ceps = ['93420090','91790010'];
 var conjuntoCeps = ceps.map(valores => buscaEndereco(valores));
+console.log(conjuntoCeps);
 Promise.all(conjuntoCeps).then(respostas => console.log(respostas));
