@@ -15,4 +15,4 @@ var consultaCEP = fetch('https://viacep.com.br/ws/88110640/json/')
 .catch(erro => console.log(erro))
 .finally(concluido => console.log('Processo concluido.'));
 
-console.log(consultaCEP);
+
