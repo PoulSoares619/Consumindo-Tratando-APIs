@@ -1,6 +1,7 @@
 // não é a melhor maneira de fazer, callbackhell kkk mas salvei por motivo de exemplo
 
 
+
 var consultaCEP = fetch('https://viacep.com.br/ws/88110640/json/')
 .then(resposta => resposta.json())// converte a resposta do fetch para json
 .then(r => {
