@@ -3,7 +3,7 @@
 
 
 var consultaCEP = fetch('https://viacep.com.br/ws/88110640/json/')
-.then(resposta => resposta.json())// converte a resposta do fetch para json
+.then(resposta => resposta.json())// converte a resposta do fetch para JSON
 .then(r => {
     if(r.erro){
         // throw insere a mensagem de erro, quase igual a um return
